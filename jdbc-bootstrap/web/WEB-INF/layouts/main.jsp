@@ -20,16 +20,6 @@
 
     </head>
     <body>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <h1 style="text-align: center">JDBC</h1>
-                    <hr/>         
-                    <jsp:include page="/WEB-INF/views/${controller}/${action}.jsp"/>
-                    <hr/>
-                    <div style="text-align: center">Nguyen Tien KhaCCCCCCCCCCCCCCCCCCCC - FPT Students</div>
-                </div>gbdsgbrr
-            </div>
-        </div>
+        aasdasdasdasdasdasdasd
     </body>
 </html>
