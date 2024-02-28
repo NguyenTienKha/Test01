@@ -11,8 +11,8 @@
 <form action="<c:url value="/toy/delete_handler.do"/>">
     Are you sure to delete this toy (id=${id})?<br/>
     <input type="hidden" name="id" value="${id}"/>
-    <input type="submit" value="Yes" name="op"/>
-    <input type="submit" value="No" name="op"/>
+    <button class="btn btn-success" type="submit" value="Yes" name="op"><i class="bi bi-check"></i> Yes</button>
+    <button class="btn btn-danger" type="submit" value="No" name="op"><i class="bi bi-x"></i> No</button>
 
 
 </form>
